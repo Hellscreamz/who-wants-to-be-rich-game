@@ -1,0 +1,12 @@
+Everything is almost the same as you know the game, but we have 2 exceptions:
+
+1. You only have one joker - 50/50, you can use it 3 times and you can only do it on questions with more than 2 answers!
+2. You can leave the game and take the money, but you can only do so after answering the question, you can not leave the game while in question.
+
+
+P.S For Rule 2
+
+I decide to do it this way, because if I create a real game with real money in a real situation, it will be a better algorithm, because most people are greedy.
+And they will decide to try another question for more money, but it's actually a trap because the questions get harder, you probably don't have jokers anymore and you're about to face your bad decisions.
+
+You know - the casino always wins. ;)
