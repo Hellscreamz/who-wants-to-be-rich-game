@@ -1,0 +1,305 @@
+@font-face {
+    font-family: itemsFont;
+    src: url(fonts/Girassol-Regular.ttf);
+  }
+  @-ms-viewport{
+    width: device-width;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    
+}
+.container{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+    position: fixed;
+}
+
+.items{
+    position: fixed;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html { 
+    background: linear-gradient(rgb(87, 87, 206), rgb(30, 89, 156), rgb(201, 201, 195));
+    
+    
+    background-repeat: no-repeat;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    padding: 70px;
+    font-size: 45px;
+    background-repeat: no-repeat;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#img_one{
+    position: absolute;
+    height: 400px;
+    width: 560px;
+    top: -50px;
+    left: 50px;
+}
+#img_two{
+    position: absolute;
+    height: 400px;
+    width: 560px;
+    top: -50px;
+    right: 50px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+.player_name{ 
+  position: absolute;
+  top: 720%;
+  left:41%;
+  border-radius: 6px;
+  height: 20px;
+  font-size: 15px;
+  width: 170px;
+  background: mediumaquamarine;
+  
+}
+#set_user_btn{
+    position: absolute;
+    left: 51%;
+    top:720%;
+  border-radius: 6px;
+  height: 26px;
+  transition-duration: 0.4s;
+  background-color: rgb(185, 67, 67);
+  font-size: 15px;
+  cursor: pointer;
+}
+#set_user_btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+#stop_now{
+    position: absolute;
+    left: 38%;
+    top:1150%;
+    height:32px;
+    width: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(152, 187, 194);
+}
+#stop_now:hover {
+    background-color: #bdca09; 
+    color: white;
+}
+#joker_fifty_fifty{
+    position: absolute;
+    left: 46%;
+    bottom:-72%;
+    height:42px;
+    width: 170px;
+    border-radius: 6px;
+    background-color: rgb(84, 161, 6);
+    cursor: pointer;
+    font-size: 25px;
+    transition-duration: 0.4s;
+}
+#joker_fifty_fifty:hover {
+    background-color: #a02a0c; /* Green */
+    color: white;
+}
+#joker_usage{
+    position: fixed;
+    right: 35%;
+    top: 65%;
+    width: 580px;
+    font-size: 35px;
+    background: rgb(177, 15, 15);
+}
+
+#restart_game{
+    position: absolute;
+    left: 54%;
+    top:1150%;
+    height:32px;
+    width: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(152, 187, 194);
+}
+#restart_game:hover {
+    background-color: #960000; 
+    color: white;
+}
+#start_btn{
+    position: absolute;
+    left: 46%;
+    top:1150%;
+    height:32px;
+    width: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(30, 160, 18);
+}
+#start_btn:hover {
+    background-color: #bd1e9a; 
+    color: white;
+}
+.quest_and_answers{
+    margin:auto;
+  width:520px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(rgb(230, 217, 40), rgb(161, 155, 155), blue);
+  border-radius: 6px;
+  top:405px;
+  right:570px;
+  font-size: 30px; 
+}
+#answer_1{
+    
+    text-align: center;
+    height:50px;
+    width: 170px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(220, 226, 233, 0.801);
+}
+#answer_1:hover {
+    background-color: #a02a0c; 
+    color: white;
+}
+#answer_2{
+    
+    text-align: center;
+    height:50px;
+    width: 170px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(220, 226, 233, 0.801);
+}
+#answer_2:hover {
+    background-color: #a02a0c; 
+    color: white;
+}
+#answer_3{
+    
+    text-align: center;
+    height:50px;
+    width: 170px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(220, 226, 233, 0.801);
+}
+#answer_3:hover {
+    background-color: #a02a0c; 
+    color: white;
+}
+#answer_4{
+    
+    text-align: center;
+    height:50px;
+    width: 170px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(220, 226, 233, 0.801);
+}
+#answer_4:hover {
+    background-color: #a02a0c; 
+    color: white;
+}
+#finish_results{
+    position: fixed;
+    width: 320px;
+    left:44%;
+    top:34%;
+    font-size: 35px;
+    text-align:justify;
+    color: rgb(0, 0, 0);
+}
+#wrong_answer{
+    position: fixed;
+    left:31%;
+    top:38%;
+    width: 750px;
+    font-size: 25px;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    
+}
+#stop_game{
+    position: fixed;
+    left:30%;
+    top:34%;
+    width: 750px;
+    font-size: 25px;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+}
+#category {
+    position: fixed;
+    left:10%;
+    top: 42%;
+    font-family: itemsFont;
+    font-size: 30px;
+}
+#diff {
+    position: fixed;
+    left:10%;
+    top: 62%;
+    font-family: itemsFont;
+    font-size: 30px;
+}
+#countQuestions{
+    position: fixed;
+    font-family: itemsFont;
+    font-size: 30px;
+    top:80%;
+    left: 79%;
+}
+#username{
+    position: fixed;
+    font-family: itemsFont;
+    font-size: 30px;
+    top:40%;
+    left: 79%;
+}
+#sum{
+    position: fixed;
+    font-family: itemsFont;
+    font-size: 30px;
+    width: 350px;
+    top:60%;
+    left:79%;
+} 
+#winner {
+    position: fixed;
+    top:24%;
+    left:36.4%;
+    font-size: 55px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 15px;
+}

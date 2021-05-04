@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>Who Wants To Be A Milionaire</header>
+    <div class="images">
+        <img id="img_one" src="images/Final_WWTBAM_logos_lang_En.png">
+        <img id="img_two" src="images/Final_WWTBAM_logos_lang_En.png">
+    </div>
+    
+    <div class="container">
+    <button id="start_btn">Question</button>
+    <button id="set_user_btn">Set Username</button>
+    <button id="stop_now">Stop Now</button>
+    <button id="restart_game">Start New Game</button>
+    <button id="joker_fifty_fifty">50/50</button>
+    <input type="text" class="player_name" placeholder="Type your username...">
+    <div class="quest_and_answers">
+        <p class="four_answers"></p>
+        <p class="two_answers"></p>
+    </div>
+    <p id="winner">Congratulations!!! <br> You win 1 000 000 $ !</p>
+    <div class="items">  
+    <p id="joker_usage"></p>
+    <p id="username">Username: <br> </p>
+    <p id="sum">Amount Money:</p>
+    <p id="countQuestions">Questions:</p>
+    <p id="finish_results"></p>
+    <p id="wrong_answer"></p>
+    <p id="stop_game"></p>
+    <p id="category">Category:</p>
+    <p id="diff">Difficulty:</p>
+    </div>
+    </div>
+    <footer>Copyright Martin's Solutions</footer>
+</body>
+<script src="app.js"></script>
+</html>
